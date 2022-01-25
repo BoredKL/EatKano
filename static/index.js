@@ -345,7 +345,7 @@ function shareText(score) {
     SubmitResults();
     if (score <= 49) return '5组深蹲';
     if (score <= 99) return '3组俯卧撑';
-    if (score <= 149) return '小奖励';
+    if (score <= 149) return '送你小奖励';
     if (score <= 199) return '英华觉得很赞';
     return '人？';
 }
